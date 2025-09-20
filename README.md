@@ -1,64 +1,34 @@
 🚖 Uber Fare & Traffic Impact Analysis
 📌 Project Overview
 
-This project analyzes Uber ride data to understand how traffic conditions impact fares, ride duration, and surge pricing. The analysis helps identify peak demand patterns, optimize pricing strategies, and improve customer experience.
+This project explores Uber ride data to analyze how traffic conditions affect fares and trip durations. Using Python in Jupyter Notebook, the project performs data cleaning, exploratory data analysis (EDA), and visualization to uncover meaningful insights.
 
 🗂️ Dataset
 
-Source: Provided as part of UpGrad Data Science Certification
+- Source: Provided as part of UpGrad Data Science Certification
+- Records: ~70,000 ride entries
+- Key Columns: Pickup time, Drop time, Distance, Traffic intensity, Fare amount, Payment type, etc.
 
-Records: ~70,000 ride entries
+🔧 Tools & Libraries
 
-Features: Pickup time, Drop time, Distance, Traffic intensity, Fare amount, Payment type, etc.
+- Python (Jupyter Notebook)
+- Libraries: Pandas, NumPy, Matplotlib, Seaborn
 
-🔧 Tools & Technologies
+📊 Key Steps in Analysis
 
-Python → Pandas, NumPy, Matplotlib, Seaborn
+Cleaned dataset (removed nulls, duplicates, corrected datatypes).
 
-SQL → Data extraction and query-based analysis
-
-Power BI → Interactive dashboard and visual insights
-
-Excel → Data cleaning and quick summaries
-
-📊 Key Analysis Performed
-
-Data cleaning & preprocessing (handling null values, duplicates, data types).
-
-Exploratory Data Analysis (EDA) to identify trends.
-
-Analyzed peak hours and traffic impact on fares and trip durations.
-
-Fare distribution by distance, traffic level, and day of week.
-
-Surge pricing patterns under high traffic conditions.
-
-📈 Dashboard Highlights (Power BI)
-
-Ride demand across different hours of the day.
-
-Average fare by traffic intensity.
-
-Trip distribution by distance and location.
-
-Impact of traffic on ride duration and fare variation.
+- Performed EDA to identify usage and fare trends.
+- Analyzed peak ride hours and high-demand routes.
+- Studied impact of traffic levels on ride duration and fare.
+- Visualized fare distribution, surge pricing, and distance vs fare relationships.
 
 💡 Insights
 
-Fares are significantly higher during peak traffic hours.
+- Fares increase significantly during peak traffic hours.
+- Longer ride durations are directly correlated with heavy traffic.
+- Surge pricing patterns are highest during weekday evenings.
+- Most frequent trips are short-distance rides within city limits.
 
-Longer trip durations are strongly correlated with heavy traffic.
-
-Surge pricing is most frequent during weekday evenings.
-
-Optimizing route allocation during traffic can improve ride efficiency.
-
-📂 Repository Structure
-Uber-Analysis/
-│── data/                 # Dataset (if shareable)
-│── notebooks/            # Jupyter notebooks with Python analysis
-│── sql/                  # SQL queries used
-│── dashboard/            # Power BI screenshots or .pbix file
-│── README.md             # Project documentation
-
+🏷️ Associated With
 UpGrad Data Science Certification (2025)
